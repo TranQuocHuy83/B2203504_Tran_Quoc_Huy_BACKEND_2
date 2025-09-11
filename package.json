@@ -4,7 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "lint": "eslint .",
+    "format": "prettier --write ."
   },
   "author": "Tran Quoc Huy",
   "license": "ISC",
@@ -17,6 +20,7 @@
     "eslint": "^9.35.0",
     "eslint-config-prettier": "^10.1.8",
     "globals": "^16.4.0",
+    "nodemon": "^3.1.10",
     "prettier": "^3.6.2"
   }
 }
